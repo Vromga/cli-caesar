@@ -1,0 +1,16 @@
+{
+  "name": "rss_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test encrypt": "node app.js -a encode -s 7 -i \"./input.txt\" -o \"./output.txt\"",
+    "test decrypt": "node app.js -a decode -s 7 -i \"./input.txt\" -o \"./output.txt\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.0.0"
+  }
+}
